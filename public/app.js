@@ -1,4 +1,4 @@
-let $state = {
+var $state = {
   isLoading: false
 }
 
