@@ -63,6 +63,7 @@ function render () {
 }
 
 function ping () {
+  reset()
   $state.isLoading = true
   axios.get('/ping').then(({data}) => {
     $state.result = ''
